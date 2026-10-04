@@ -1,6 +1,6 @@
 // api.js - every call to the FastAPI backend lives here.
 // If you change the backend address, change it in ONE place (API_BASE).
-const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api";
+const API_BASE = "https://jobconnect-ai.onrender.com/api";
 
 // Turn FastAPI error responses into a readable message.
 function formatError(data, status) {
